@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+add_definitions(-DUNICODE)
+add_definitions(-D_UNICODE)
+project(ThreadCycles)
+add_executable(ThreadCycles querycomp.cpp querycomp.h querycycles.cpp)
